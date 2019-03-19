@@ -1,0 +1,18 @@
+{
+      "type": "crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:command_block"
+        }
+      ],
+      "result": {
+        "item": "minecraft:barrier",
+        "count": 2,
+        "function": "minecraft:set_name",
+            "name": {
+                "text": "Test",
+                "color": "red"
+            }
+      }
+}
+
