@@ -14,6 +14,7 @@ execute as @a[scores={disk_use=1..,disk_save=1..}] at @s run scoreboard players 
 execute as @a[scores={disk_use=1..,disk_save=1,disk_timer=3..}] run playsound minecraft:music.portal record @a ~ ~ ~ 100 1 1
 execute as @a[scores={disk_use=1..,disk_save=2,disk_timer=3..}] run playsound minecraft:music.credits record @a ~ ~ ~ 100 1 1
 execute as @a[scores={disk_use=1..,disk_save=3,disk_timer=3..}] run playsound minecraft:music.dragon record @a ~ ~ ~ 100 1 1
+execute as @a[scores={disk_use=1..,disk_save=4,disk_timer=3..}] run playsound minecraft:music.sail record @a ~ ~ ~ 100 1 1
 # Détection reset
 execute as @a[scores={disk_use=1..,disk_timer=3..}] run scoreboard players set @s disk_use 0
 execute as @a[scores={disk_use=1..,disk_id=0}] run scoreboard players set @s disk_use 0
