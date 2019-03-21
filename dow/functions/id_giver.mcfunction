@@ -1,7 +1,7 @@
 # Attribution ID et incrémentation ID Total
 execute run scoreboard players add total_id player_id 1
-execute positioned 0 0 0 as @p[tag=!id_get,limit=1] run scoreboard players operation @s player_id = total_id player_id
-execute positioned 0 0 0 as @p[tag=!id_get,limit=1] run tag @s add id_get
+execute positioned 0 0 0 as @e[type=player,tag=!id_get,limit=1] run scoreboard players operation @s player_id = total_id player_id
+execute positioned 0 0 0 as @e[type=player,tag=!id_get,limit=1] run tag @s add id_get
 # Attribution BossBar pour interface custom
 execute run bossbar set minecraft:1 players @p[scores={player_id=1}]
 execute run bossbar set minecraft:2 players @p[scores={player_id=2}]

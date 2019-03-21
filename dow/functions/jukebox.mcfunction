@@ -13,7 +13,7 @@ execute as @a[scores={disk_use=1..,disk_save=1..,disk_timer=..1}] at @s run stop
 execute as @a[scores={disk_use=1..,disk_save=1..}] at @s run scoreboard players add @s disk_timer 1
 execute as @a[scores={disk_use=1..,disk_save=1..}] at @s run function dow:jukebox_start
 # Reset Détection disque
-execute as @a[scores={disk_use=1..,disk_timer=2..}] run scoreboard players set @s disk_use 0
+execute as @a[scores={disk_use=1..,disk_timer=3..}] run scoreboard players set @s disk_use 0
 execute as @a[scores={disk_use=1..,disk_id=0}] run scoreboard players set @s disk_use 0
 execute as @a[scores={disk_use=0}] run scoreboard players set @s disk_timer 0
 execute as @a[scores={disk_use=0}] run scoreboard players set @s disk_save 0
