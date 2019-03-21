@@ -9,4 +9,19 @@ scoreboard objectives add disk_save dummy "disk_save"
 scoreboard objectives add disk_detect dummy "disk_detect"
 scoreboard objectives add disk_detect2 dummy "disk_detect2"
 scoreboard objectives add disk_use minecraft.custom:minecraft.play_record "disk_use"
+scoreboard objectives add player_id dummy "player_id"
+
+execute run bossbar add 1 ""
+execute run bossbar add 2 ""
+execute run bossbar add 3 ""
+execute run bossbar add 4 ""
+execute run bossbar add 5 ""
+execute run bossbar add 6 ""
+execute run bossbar add 7 ""
+execute run bossbar add 8 ""
+execute run bossbar add 9 ""
+execute run bossbar add 10 ""
+
+execute run function dow:id_remover
+
 tellraw @a [{"text":"[Datapack chargé] ","color":"green"},{"text":"Pack test (par Dowar)","color":"white"}]
