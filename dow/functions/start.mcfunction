@@ -6,3 +6,4 @@ execute if entity @e[type=player] run function dow:jukebox
 execute if entity @e[type=player] run function dow:bossbar_update
 execute if entity @e[type=item] run function dow:item_holoname
 execute run function dow:id_system
+execute run function dow:right_click
