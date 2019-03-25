@@ -1,6 +1,4 @@
 
-execute if block ~ ~ ~ #dow:no_collision positioned ^ ^ ^0.25 run function dow:raycasting
+execute if block ~ ~ ~ #dow:raycast_ignore positioned ^ ^ ^0.5 run function dow:raycasting
+execute unless block ~ ~ ~ #dow:raycast_ignore positioned ^ ^ ^0.5 run function dow:raycasting_tp
 particle minecraft:dragon_breath ~ ~ ~ 0 0 0 0.0001 1 force
-#execute unless block ~ ~ ~ air run setblock ~ ~1 ~ dead_bush keep
-#execute run kill @e[type=zombie,distance=..1]
-execute unless block ~ ~ ~ #dow:no_collision positioned ^ ^ ^0.25 run tp @s ~ ~1 ~

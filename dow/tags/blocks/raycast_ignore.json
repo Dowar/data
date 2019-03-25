@@ -1,0 +1,28 @@
+{
+      "values":[
+            "#dow:no_collision",
+            "#minecraft:carpets",
+            "#minecraft:banners",
+            "#minecraft:buttons",
+            "minecraft:lever",
+            "#minecraft:coral_plants",
+            "#minecraft:doors",
+            "#minecraft:rails",
+            "#minecraft:saplings",
+            "minecraft:water",
+            "minecraft:lava",
+            "#minecraft:wooden_pressure_plates",
+            "minecraft:stone_pressure_plate",
+            "minecraft:heavy_weighted_pressure_plate",
+            "minecraft:light_weighted_pressure_plate",
+            "minecraft:tripwire_hook",
+            "#minecraft:trapdoors",
+            "minecraft:repeater",
+            "minecraft:comparator",
+            "minecraft:redstone_wire",
+            "minecraft:torch",
+            "minecraft:redstone_torch",
+            "#minecraft:small_flowers",
+            "minecraft:peony"
+      ]
+}

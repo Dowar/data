@@ -1,2 +1,2 @@
-execute as @e[scores={right_click=1..}] at @s positioned ~ ~1.5 ~ run function dow:raycasting
-execute as @e[scores={right_click=1..}] at @s run scoreboard players set @s right_click 0
+execute as @p[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}},scores={item_skin=1,right_click=1..}] at @s positioned ~ ~1.5 ~ run function dow:raycasting
+execute as @p[scores={right_click=1..}] at @s run scoreboard players set @s right_click 0
