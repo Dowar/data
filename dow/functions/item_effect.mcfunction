@@ -1,0 +1,2 @@
+execute as @e[type=item,nbt={Item:{tag:{CustomModelData:1}}},nbt={Item:{id:"minecraft:carrot_on_a_stick"}}] at @s run particle minecraft:dragon_breath ~ ~0.4 ~  0 0 0.025 1 force
+schedule function dow:item_effect 5t

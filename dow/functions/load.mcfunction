@@ -24,4 +24,6 @@ execute run bossbar add 10 ""
 
 execute run function dow:id_remover
 
+schedule function dow:item_effect 5s
+
 tellraw @a [{"text":"[Datapack chargé] ","color":"green"},{"text":"Pack test (par Dowar)","color":"white"}]
