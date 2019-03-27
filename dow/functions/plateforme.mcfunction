@@ -25,9 +25,9 @@ execute as @e[name=plateforme,tag=!solid,tag=mouv_d] at @s if block ~ ~ ~ barrie
 execute as @e[name=plateforme,tag=solid,tag=!mouv_h,tag=!mouv_b,tag=!mouv_g,tag=!mouv_d,tag=!mouv_mon,tag=!mouv_des] at @s if block ~ ~ ~ air run tag @s add death
 execute as @e[name=plateforme,tag=solid,tag=!mouv_h,tag=!mouv_b,tag=!mouv_g,tag=!mouv_d,tag=!mouv_mon,tag=!mouv_des] at @s if block ~ ~ ~ air run tag @e[type=shulker,distance=..0.25] add death
 execute as @e[name=plateforme,tag=solid,tag=!mouv_h,tag=!mouv_b,tag=!mouv_g,tag=!mouv_d,tag=!mouv_mon,tag=!mouv_des] at @s if block ~ ~ ~ air run tag @e[type=falling_block,distance=..0.25] add death
-execute as @e[tag=death] run tp @s ~ -5 ~
+execute as @e[tag=death] run tp @s ~ ~-50 ~
 execute as @e[tag=death] run scoreboard players add @s death_timer 1
-execute as @e[tag=death,scores={death_timer=5..}] run kill @s
+execute as @e[tag=death,scores={death_timer=1..}] run kill @s
 ###==================
 ### Collisions
 ###==================

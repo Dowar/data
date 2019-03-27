@@ -23,6 +23,8 @@
             "minecraft:torch",
             "minecraft:redstone_torch",
             "#minecraft:small_flowers",
-            "minecraft:peony"
+            "minecraft:peony",
+            "#minecraft:signs",
+            "minecraft:tripwire"
       ]
 }
