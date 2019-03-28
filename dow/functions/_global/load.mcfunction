@@ -22,8 +22,8 @@ execute run bossbar add 8 ""
 execute run bossbar add 9 ""
 execute run bossbar add 10 ""
 
-execute run function dow:id_remover
+execute run function dow:custom_id/remover
 
-schedule function dow:item_effect 5s
+schedule function dow:custom_item/ender_wand/item_effect 5t
 
 tellraw @a [{"text":"[Datapack chargé] ","color":"green"},{"text":"Pack test (par Dowar)","color":"white"}]

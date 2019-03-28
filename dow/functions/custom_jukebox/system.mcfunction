@@ -11,7 +11,7 @@ execute as @a[scores={disk_use=1..,disk_id=1..,disk_timer=0}] at @s run scoreboa
 execute as @a[scores={disk_use=1..,disk_save=1..,disk_timer=..4}] at @s run stopsound @a record
 # Start musique custom
 execute as @a[scores={disk_use=1..,disk_save=1..}] at @s run scoreboard players add @s disk_timer 1
-execute as @a[scores={disk_use=1..,disk_save=1..}] at @s run function dow:jukebox_start
+execute as @a[scores={disk_use=1..,disk_save=1..}] at @s run function dow:custom_jukebox/disk_start
 # Reset Détection disque
 execute as @a[scores={disk_use=1..,disk_timer=5..}] run scoreboard players set @s disk_use 0
 execute as @a[scores={disk_use=1..,disk_id=0}] run scoreboard players set @s disk_use 0

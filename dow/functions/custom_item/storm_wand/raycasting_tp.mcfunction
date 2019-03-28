@@ -1,0 +1,2 @@
+execute align xyz unless block ~ ~ ~ #dow:raycast_ignore positioned ~ ~1 ~ run function dow:custom_item/storm_wand/raycasting_tp
+execute if block ~ ~ ~ #dow:raycast_ignore align xyz run summon minecraft:lightning_bolt ~ ~ ~

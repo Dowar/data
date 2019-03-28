@@ -1,0 +1,1 @@
+execute run function dow:custom_item/storm_wand/raycasting

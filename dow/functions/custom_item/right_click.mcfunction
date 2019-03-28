@@ -1,0 +1,3 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}},scores={item_skin=1,right_click=1..}] at @s positioned ~ ~1.5 ~ run function dow:custom_item/ender_wand/raycasting_start
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}},scores={item_skin=2,right_click=1..}] at @s positioned ~ ~1.5 ~ run function dow:custom_item/storm_wand/raycasting_start
+execute as @a[scores={right_click=1..}] at @s run scoreboard players set @s right_click 0
