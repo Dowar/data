@@ -25,6 +25,8 @@
             "#minecraft:small_flowers",
             "minecraft:peony",
             "#minecraft:signs",
-            "minecraft:tripwire"
+            "minecraft:tripwire",
+            "minecraft:tall_grass",
+            "minecraft:grass"
       ]
 }
